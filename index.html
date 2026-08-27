@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nikhil Raj | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Nikhil Raj</h2>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <section id="home" class="home">
+
+        <div class="home-text">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Nikhil Raj</span></h1>
+
+            <h2>Frontend Developer</h2>
+
+            <p>
+                I am a frontend developer who enjoys creating
+                simple, responsive and user-friendly websites using
+                HTML, CSS and JavaScript.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn second-btn">Contact Me</a>
+            </div>
+
+        </div>
+
+
+        <div class="home-image">
+            <img src="/images/Photo1.jpg" alt="Nikhil Raj">
+        </div>
+
+    </section>
+
+
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-image">
+                <img src="/images/Photo2.jpg" alt="My Profile">
+            </div>
+
+            <div class="about-text">
+
+                <h3>I'm a Frontend Development Student</h3>
+
+                <p>
+                    Hello! My name is Nikhil Raj. I am interested in
+                    frontend development and web design.
+                </p>
+
+                <p>
+                    I enjoy learning how websites work and building
+                    projects using HTML, CSS and JavaScript. My goal is
+                    to improve my development skills by creating
+                    practical projects.
+                </p>
+
+                <p>
+                    I am currently focusing on responsive web design,
+                    clean layouts and creating websites that are easy
+                    to use.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="skills" class="section skills-section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <p class="section-description">
+            Technologies and skills I am currently learning.
+        </p>
+
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>Creating the structure of websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Designing attractive and responsive websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Adding simple interactions to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Responsive Design</h3>
+                <p>Making websites work on different screen sizes.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <p class="section-description">
+            Some projects that I have created while learning frontend development.
+        </p>
+
+
+        <div class="projects-container">
+
+        
+            <div class="project-card">
+
+                <img src="images/project1.jpg" alt="Music Player">
+
+                <div class="project-content">
+
+                    <h3>Music Player Website</h3>
+
+                    <p>
+                        A responsive music player website with play,
+                        pause, next, previous and volume controls.
+                    </p>
+
+                    <p class="technologies">
+                        HTML • CSS • JavaScript
+                    </p>
+
+                    <a href="#" class="project-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <img src="images/project2.jpg" alt="Blog Website">
+
+                <div class="project-content">
+
+                    <h3>Personal Blog Website</h3>
+
+                    <p>
+                        A clean and responsive blog website designed
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                    <p class="technologies">
+                        HTML • CSS • JavaScript
+                    </p>
+
+                    <a href="#" class="project-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <img src="images/project3.jpg" alt="Portfolio Website">
+
+                <div class="project-content">
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A personal portfolio website to showcase my
+                        skills, projects and professional information.
+                    </p>
+
+                    <p class="technologies">
+                        HTML • CSS • JavaScript
+                    </p>
+
+                    <a href="#" class="project-btn">View Project</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="resume" class="resume-section">
+
+        <div class="resume-content">
+
+            <h2>Want to know more about me?</h2>
+
+            <p>
+                Download my resume to learn more about my education,
+                skills, projects and experience.
+            </p>
+
+            <a href="resume/Nikhil_Raj_Resume.pdf"
+               download
+               class="btn">
+                Download Resume
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p class="section-description">
+            Have a question or want to work together? Send me a message.
+        </p>
+
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Get In Touch</h3>
+
+                <p>
+                    I would be happy to connect with you.
+                </p>
+
+                <p>📧 Email: nikhil2000q@gmail.com</p>
+
+                <p>📍 Location: India</p>
+
+                <p>💼 LinkedIn: linkedin.com</p>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                >
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Subject"
+                >
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Your Message"
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <h3>Nikhil Raj</h3>
+
+        <p>
+             Frontend Developer
+        </p>
+
+        <div class="social-links">
+
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+
+        </div>
+
+    
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
